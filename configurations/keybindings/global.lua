@@ -23,7 +23,7 @@ local globalkeys = gears.table.join(
 	-- Swap client
     awful.key(
 		{ modkey, "Shift"},
-		"j",
+		"a",
 		function () awful.client.swap.byidx(1) end,
         {description = "swap with next client by index", group = "client"}
 	),
@@ -35,7 +35,7 @@ local globalkeys = gears.table.join(
 	),
     awful.key(
 		{ modkey, "Shift"},
-		"k",
+		"d",
 		function () awful.client.swap.byidx(-1) end,
         {description = "swap with previous client by index", group = "client"}
 	),
