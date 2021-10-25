@@ -217,7 +217,7 @@ clientbuttons = gears.table.join(
         awful.mouse.client.resize(c)
     end)
 )
-awful.util.spawn_with_shell("dwall -s island")
+awful.util.spawn_with_shell("dwall -s street")
 -- Set keys
 root.keys(globalkeys)
 
