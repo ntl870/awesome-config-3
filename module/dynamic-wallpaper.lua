@@ -44,7 +44,7 @@ local wall_config = {
 	},
 
 	-- Don't stretch wallpaper on multihead setups if true
-	stretch = config.module.dynamic_wallpaper.stretch or false
+	stretch = false
 }
 
 --  ========================================
